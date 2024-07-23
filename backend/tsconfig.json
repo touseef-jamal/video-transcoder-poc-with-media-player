@@ -8,9 +8,6 @@
         "outDir": "dist",
         "strict": true,
         "esModuleInterop": true,
-        "paths": {
-            "@/*": ["./src/*"]
-        },
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "strictPropertyInitialization": false
