@@ -22,6 +22,4 @@ This project has a media player in which you need to pass the video id generated
 
 4. Run server using nodemon while development using command `npm run dev`.
 
-5. For testing the API, stop the nodemon server because the uploading and transcoding process takes a lot of time and nodemon will restart the server forcefully if it takes too much time to respond to the request and your upload request will be cancelled. So run server using `ts-node ./src/index.ts`
-
-6. Use postman or thunder client and hit `http://localhost:2000/api/upload` with a field named `video` along with a video file.
+5. Use postman or thunder client and hit `http://localhost:2000/api/upload` with a field named `video` along with a video file.
