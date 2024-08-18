@@ -79,7 +79,7 @@ const VideoPlayer = ({ videoId }) => {
         } else {
             const player = playerRef.current
             player.autoplay(options.autoplay)
-            player.src([options.sources])
+            player.src(options.sources)
         }
     }, [videoRef])
 
